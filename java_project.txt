@@ -1,0 +1,24 @@
+4. Creating a Mini Social Network Feed Using Trees and Graphs
+Description: A social networking platform implementation focusing on relationship management and content distribution using graph structures.
+
+Data Structures Used:
+
+Graphs: For representing user relationships and connections
+Trees: For comment hierarchies and content organization
+Priority Queues: For feed ranking algorithms
+Hash Maps: For user profile quick access
+Algorithms Implemented:
+
+Graph Traversal: BFS for finding shortest connection paths, DFS for community detection
+Minimum Spanning Tree: For finding optimal connection suggestions
+Topological Sorting: For timeline organization
+Shortest Path: For mutual friend discovery
+Synopsis: The platform models users as graph nodes with friendships as edges. Content feeds use tree structures for organizing posts and comments hierarchically. BFS finds shortest paths between users for friend suggestions, while DFS detects user communities. The feed ranking system uses priority queues to show relevant content based on engagement metrics.
+
+Key Features:
+
+User relationship mapping and management
+Hierarchical comment systems
+Friend suggestion algorithms
+Community detection and grouping
+Personalized feed generation with ranking
